@@ -1,0 +1,12 @@
+[
+    {
+        "type": "equation",
+        "label": "enq1",
+        "raw_latex": "\\begin{equation}\nN_{valid} = \\lceil N_{actual} \\times [1 - ((max(w, h) - min(w, h)) / (max(w, h)))] \\rceil\n\\label{enq1}\n\\end{equation}"
+    },
+    {
+        "type": "equation",
+        "label": "enq2",
+        "raw_latex": "\\begin{equation}\nf_{\\text{dec}}: \\mathbb{R}^{n \\times d_{\\text{latent}}} \\rightarrow \\mathbb{R}^{N \\times d_{\\text{text}}}; \\quad \\hat{\\mathbf{X}} = f_{\\text{dec}}(\\mathbf{Z}) \\quad \\text{where } n \\le N\n\\label{enq2}\n\\end{equation}"
+    }
+]
